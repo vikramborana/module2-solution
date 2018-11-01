@@ -14,6 +14,7 @@ body {
 section {
 	border: 1px solid black;
 	margin: 10px;
+	background-color: #FDD0C6;
 }
 
 h2 {
@@ -25,34 +26,25 @@ h2 {
     width:160px;
     font-size: 20px;
     font-weight: bold;
-    height: 37px;
-    padding-top: 10px;
+    height: 40px;
+    padding:8px;
     font-family: sans-serif;
 }
 
+.breakfast>h2 {
+	background-color: #ADF9F5;
+
+}
 .lunch>h2 {
-	border-left: 1px solid orange;
-	border-bottom: 1px solid orange;
+	background-color: #C3F693;
 }
-
-.breakfast {
-	background-color: #00ffff;
-	
-}
-
-.lunch {
-	background-color: black;
-	color: yellow;	
-	border-color: orange;
-}
-
-.dinner {
-	background-color: orange;
-	color: blue;
+.dinner>h2 {
+	background-color: #FB93BB;   
 }
 
 p {
 	padding: 40px 10px 10px 10px;
+	font-family: Verdana;
 }	
 
 .row {
